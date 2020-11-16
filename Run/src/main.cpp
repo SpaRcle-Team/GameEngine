@@ -15,7 +15,7 @@ int main() {
 
     ResourceManager::Init("folder");
 
-    ResourceManager::Stop();
+    //ResourceManager::Stop();
 
     return Debug::Stop();
 }
