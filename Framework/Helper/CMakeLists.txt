@@ -8,4 +8,4 @@ add_library(Helper SHARED
         src/Debug/Debug.cpp
         )
 
-target_include_directories(Helper PUBLIC inc)
+target_include_directories(Helper PUBLIC inc PRIVATE private INTERFACE interface)
